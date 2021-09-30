@@ -2,102 +2,6 @@ import styled from "styled-components";
 
 const HomeWrapper = styled.div`
   display: flex;
-  /* leftSide css*/
-  @media screen and (max-width: 1600px) {
-    .LeftSide {
-      margin-left: 90px !important;
-    }
-  }
-  .LeftSide {
-    width: 298px;
-    height: 980px;
-    margin-left: 290px;
-    padding-top: 66px;
-    position: relative;
-    border-right: 1px solid #64a3b0;
-    .res1 {
-      .list_subtitle {
-        margin: 40px 80px 40px 82px;
-        position: relative;
-        &.active {
-          color: white;
-          margin-right: 10px;
-          font-size: 16px;
-          line-height: 19.5px;
-          margin: 25px 80px 40px 82px;
-        }
-        .small_photo {
-          width: 8px;
-          height: 8px;
-          position: absolute;
-          top: 4px;
-          left: -15px;
-          border-radius: 1px;
-        }
-      }
-    }
-    .exit {
-      margin-top: 0 !important;
-      padding-top: 160px;
-    }
-    .left_group {
-      margin-top: 49.4px;
-      margin-left: 23px;
-      .list_subtitle {
-        padding-left: 15px;
-        font-size: 16px;
-        line-height: 19.5px;
-      }
-    }
-    .firstList {
-      width: 230px;
-      height: 50px;
-      background: #64a3b0;
-      box-shadow: 0px 6px 12px rgba(51, 215, 225, 0.3);
-      border-radius: 5px;
-      &,
-      .firstList_photo {
-        margin-left: 10px;
-      }
-      .firstList_photo {
-        width: 30px;
-        height: 22px;
-      }
-      .subtitle {
-        margin-left: 12px;
-        color: #f8f8f8;
-        font-size: 16px;
-        line-height: 20px;
-      }
-    }
-    .subtitle,
-    .list_subtitle {
-      font-size: 16px;
-      font-weight: normal;
-      font-style: normal;
-      line-height: 20px;
-      &.active {
-        color: white;
-      }
-    }
-    .bars {
-      width: 32px;
-      height: 32px;
-      position: absolute;
-      top: 20px;
-      right: 9px;
-    }
-    .list_subtitle {
-      color: rgba(248, 248, 248, 0.4);
-    }
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      li {
-      }
-    }
-  }
 
   /* sidebar css */
   .SideBar {
@@ -127,21 +31,24 @@ const HomeWrapper = styled.div`
           rgba(33, 188, 160, 0) 10.23%,
           rgba(33, 188, 160, 0.2) 100%
         );
-        border-bottom: 3px solid #64a3b0;
+        border-bottom: 4px solid #64a3b0;
         border-radius: 4px;
-        padding-left: 35px;
+        padding: 0 15px 0 35px;
         margin-left: 45px;
         padding-bottom: 7px;
       }
 
       &.education {
         padding-left: 30px;
+        margin-left: 0;
       }
       &.agreement {
         padding-left: 106px;
+        margin-left: 0;
       }
       &.finish {
         padding-left: 93px;
+        margin-left: 0;
       }
 
       .circle {
@@ -156,8 +63,8 @@ const HomeWrapper = styled.div`
         font-size: 20px;
         line-height: 24px;
         color: rgba(248, 248, 248, 0.2);
-        &.active {
-          color: white;
+        &.activeSubs {
+          color: white !important;
         }
       }
     }
@@ -169,7 +76,7 @@ const HomeWrapper = styled.div`
         position: absolute;
         width: 16px;
         height: 8px;
-        bottom: 232px;
+        bottom: 235px;
         left: 310px;
       }
       .calendar1,
@@ -179,11 +86,11 @@ const HomeWrapper = styled.div`
         height: 24px;
       }
       .calendar1 {
-        top: 135px;
+        top: 136px;
         right: 142px;
       }
       .calendar2 {
-        bottom: 127px;
+        bottom: 130px;
         left: 301px;
       }
 
@@ -191,7 +98,12 @@ const HomeWrapper = styled.div`
         position: relative;
         .radio_group {
           position: absolute;
-          bottom: 130px;
+          bottom: 124px;
+          left: -20px;
+          .gender {
+            width: 71.12px;
+            height: 18.09px;
+          }
           .subtitle {
             font-weight: bold;
             font-style: normal;

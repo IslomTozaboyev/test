@@ -5,6 +5,7 @@ const InputGroup = [
     placeholder: "Enter student's name",
     imgClass: `left name`,
     width: `68px`,
+    type: "text",
   },
   {
     img: "surname_.svg",
@@ -12,6 +13,7 @@ const InputGroup = [
     placeholder: "Enter student’s Surname",
     imgClass: `right surname`,
     width: `96px`,
+    type: "text",
   },
   // =====
   {
@@ -20,6 +22,7 @@ const InputGroup = [
     placeholder: "Enter student’s Middle name",
     imgClass: `left middle`,
     width: `133px`,
+    type: "text",
   },
   {
     img: "date_birth_.svg",
@@ -27,15 +30,17 @@ const InputGroup = [
     placeholder: "Enter student's birth",
     imgClass: `right date`,
     width: `101px`,
+    type: "text",
   },
   // =====
   {
     img: "phone_number _.svg",
     inputClass: "leftInput",
     placeholderActive: `+998`,
-    placeholder: "+998  90 000 00 00",
+    placeholder: "+998 90 000 00 00",
     imgClass: `left phone`,
     width: `152px`,
+    type: "number",
   },
   {
     img: "nationality _.svg",
@@ -43,6 +48,7 @@ const InputGroup = [
     placeholder: "Choose student's location",
     imgClass: `right nationality`,
     width: `112px`,
+    type: "text",
   },
   //======
   {
@@ -51,11 +57,13 @@ const InputGroup = [
     placeholder: "AA",
     imgClass: `left seria_p`,
     width: `143px`,
+    type: "text",
   },
   {
     inputClass: "leftInput number_I",
     placeholder: "1234567",
     imgClass: `right passport`,
+    type: "number",
   },
 
   {
@@ -64,6 +72,7 @@ const InputGroup = [
     placeholder: "Enter student's E-mail",
     imgClass: `right email`,
     width: `71px`,
+    type: "email",
   },
 
   //====
@@ -73,6 +82,7 @@ const InputGroup = [
     placeholder: "Choose student’s location",
     imgClass: `left region`,
     width: `78px`,
+    type: "text",
   },
   {
     img: "Address _.svg",
@@ -80,6 +90,7 @@ const InputGroup = [
     placeholder: "Enter student’s address",
     imgClass: `right address`,
     width: `86px`,
+    type: "text",
   },
 
   //====
@@ -89,6 +100,7 @@ const InputGroup = [
     placeholder: "Enter Date ",
     imgClass: `left date_r`,
     width: `167px`,
+    type: "text",
   },
   {
     img: "Parent’s_number _.svg",
@@ -96,6 +108,7 @@ const InputGroup = [
     placeholder: "+998 90 000 00 00",
     imgClass: `right parents`,
     width: `235px`,
+    type: "number",
   },
   //======
 ];

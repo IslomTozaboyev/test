@@ -57,7 +57,7 @@ const InputsWrapper = styled.div`
 
 export { InputsWrapper };
 
-const Inputs = ({ img, placeholder, inputClass, imgClass, width }) => {
+const Inputs = ({ img, placeholder, inputClass, imgClass, width, type }) => {
   return (
     <InputsWrapper>
       <div className="d-flex flex-column">
@@ -71,7 +71,7 @@ const Inputs = ({ img, placeholder, inputClass, imgClass, width }) => {
         ) : (
           ""
         )}
-        <input className={inputClass} placeholder={placeholder} type="text" />
+        <input type={type} className={inputClass} placeholder={placeholder} />
       </div>
     </InputsWrapper>
   );
