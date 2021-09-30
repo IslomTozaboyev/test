@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 const HeaderWrapper = styled.div`
+  @media screen and (max-width: 1600px) {
+    header {
+      padding: 0 120px !important;
+    }
+  }
   box-shadow: 0 0 30px 0 rgba(112, 151, 229, 1) !important;
   header {
     background-color: #243047;

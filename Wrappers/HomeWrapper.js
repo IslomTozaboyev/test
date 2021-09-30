@@ -3,7 +3,7 @@ import styled from "styled-components";
 const HomeWrapper = styled.div`
   display: flex;
   /* leftSide css*/
-  @media screen and (max-width: 1500px) {
+  @media screen and (max-width: 1600px) {
     .LeftSide {
       margin-left: 90px !important;
     }
